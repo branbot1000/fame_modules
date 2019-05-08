@@ -7,7 +7,7 @@ try:
 except ImportError:
     HAVE_REQUESTS = False
 
-
+# testing module failure
 class Yeti(ThreatIntelligenceModule):
     name = "Yeti"
     description = "Submit observables to YETI in order to get matching tags and indicators."
